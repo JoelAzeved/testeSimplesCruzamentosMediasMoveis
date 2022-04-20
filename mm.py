@@ -7,7 +7,7 @@ import numpy as np
 import datetime as datetime
 import yfinance as yf
 import matplotlib.pyplot as plt
-#plt.style.use("fivethirtyeigth")
+
 
 df = yf.download("PETR4.SA", "2018-01-01", "2022-04-15")
 
