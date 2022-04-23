@@ -90,3 +90,5 @@ np.array(df_venda["Venda"])[:-1] - np.array(df_compra["Compra"])[-1]
 resultado = round(sum(np.array(df_venda["Venda"])[:-1]-np.array(df_compra["Compra"])[-1]), 2)
 
 print("resultado por ação : R$ " + str(resultado))
+
+
