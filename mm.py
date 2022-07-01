@@ -18,7 +18,7 @@ plt.plot(df["Adj Close"],label= "PETR4", linewidth=2,color="blue")
 plt.show()
 
 mm1 = 8
-mm2 = 25
+mm2 = 20
 
 ma1 = pd.DataFrame()
 ma1["media curta"] = df["Adj Close"].rolling(window = mm1).mean()
